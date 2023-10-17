@@ -18,7 +18,7 @@ email                 :
 description           : >-
 minimal_mistakes_skin : default
 search                : false
-logo                  : assets\images\UC LOGISTICS FZ-LLC JPEG.jpg
+logo                  : "assets/images/UC LOGISTICS FZ-LLC JPEG.jpg"
 
 # Build settings
 markdown              : kramdown
