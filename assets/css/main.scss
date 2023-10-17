@@ -7,35 +7,13 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-//Настройка верхнего меню
-element.style {
-}
-@media (min-width: 80em)
-.masthead__inner-wrap {
-    max-width: 1280px;
-}
-.masthead__inner-wrap {
-    clear: both;
-    margin-left: 1%;
-    margin-right: auto;
-    padding: 0em;
-    max-width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
-}
-
 //Размер логотипа
 .greedy-nav img {
     -webkit-transition: none;
     transition: none;
 }
 .site-logo img {
-    max-height: 5rem;
+    max-height: 3rem;
 }
 
 //Размер баннера на главной странице
