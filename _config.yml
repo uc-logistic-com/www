@@ -5,7 +5,7 @@ email                 :
 description           : >-
 minimal_mistakes_skin : default
 search                : false
-logo                  : "assets/images/UC LOGISTICS FZ-LLC PNG.png"
+logo                  : "assets/images/Logo_small.png"
 
 # Build settings
 markdown              : kramdown
