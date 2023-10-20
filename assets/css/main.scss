@@ -59,6 +59,17 @@ element.style {
     font-size: 0em;
 }
 
+//размер изображений над заголовками
+
+img {
+    max-width: 60%;
+    width: auto\9;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
 
 //редактор подвала страницы
 .page__footer {
